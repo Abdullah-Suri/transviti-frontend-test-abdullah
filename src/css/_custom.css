@@ -1,0 +1,21 @@
+body, html {
+    background-color: #F4F4F4;
+    color: var(--secondary);
+    font-family: 'Neue Haas', sans-serif;
+    font-weight: 400 !important;
+}
+
+/* similiar tabs */
+.similiar-pill {
+    @apply sm:w-fit w-full border border-[#737A91] rounded-[5px] text-xs hover:bg-[#737A91] hover:text-white transition-all duration-150 mr-3 py-2 px-3.5;
+}
+
+/* Recomended/Featured Jobs btn */
+.see-job-btn {
+    @apply sm:text-sm text-xs text-primary relative before:absolute before:bottom-0 before:h-px before:w-full before:bg-primary;
+}
+
+/* select opt  */
+.select-opt {
+    @apply py-2.5 lg:px-7 px-4 cursor-pointer hover:bg-[#F7F7F7];
+}
